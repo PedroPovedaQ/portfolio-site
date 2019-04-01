@@ -1,0 +1,22 @@
+<a href="" class="portfolio-item d-block mx-auto" {{action (mut modal1) true}}>
+    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            <i class="fas fa-search-plus fa-3x"></i>
+        </div>
+    </div>
+    <img class="img-fluid" src="{{imgURL}}" alt="{{title}} Screenshot">
+</a>
+
+{{#bs-modal size="lg" open=modal1 onHidden=(action (mut modal1) false) as |modal|}}
+{{#modal.header}}
+<h4 class="modal-title">
+    {{title}}
+</h4>
+{{/modal.header}}
+{{#modal.body}}
+{{description}}
+<div class="portfolio-screenshot-container">
+    <img src="{{imgURL}}" alt="{{title}} Screenshot">
+</div>
+{{/modal.body}}
+{{/bs-modal}}

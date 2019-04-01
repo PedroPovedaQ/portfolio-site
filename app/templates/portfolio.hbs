@@ -1,0 +1,13 @@
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center">
+    <div class="w-100">
+        <h2 class="mb-5">Portfolio</h2>
+
+        <div class="row">
+            {{#each portfolioItems as |portfolioItem|}}
+            <div class="col-md-6">
+                {{portfolio-item title=portfolioItem.title description=portfolioItem.description imgURL=portfolioItem.imgURL}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>

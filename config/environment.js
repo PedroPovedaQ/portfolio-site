@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'library-app',
+    modulePrefix: 'portfolio-app',
     environment,
     rootURL: '/',
     locationType: 'auto',
