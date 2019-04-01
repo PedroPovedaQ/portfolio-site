@@ -312,10 +312,17 @@ a {
 }
 
 #sb-link-container {
-  color: $black;
   font-size: 0.7rem;
 }
 
 #sb-link {
   color: $black;
+}
+
+#sb-link-text {
+  color: $black;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
 }
