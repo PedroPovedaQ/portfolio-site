@@ -5,7 +5,7 @@
         <div class="row">
             {{#each portfolioItems as |portfolioItem|}}
             <div class="col-md-6">
-                {{portfolio-item title=portfolioItem.title description=portfolioItem.description imgURL=portfolioItem.imgURL}}
+                {{portfolio-item title=portfolioItem.title description=portfolioItem.description imgURL=portfolioItem.imgURL link=portfolioItem.link}}
             </div>
             {{/each}}
         </div>
