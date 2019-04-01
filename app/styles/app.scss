@@ -29,7 +29,7 @@ $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
-$primary: $purple !default;
+$primarycol: $purple !default;
 $secondary: $gray-600 !default;
 $success: $green !default;
 $info: $cyan !default;
@@ -120,7 +120,7 @@ p.lead {
       margin-right: 0;
     }
     &:hover {
-      background-color: $primary;
+      background-color: $primarycol;
     }
   }
 }
@@ -129,7 +129,7 @@ p.lead {
   font-size: 3rem;
   .list-inline-item i {
     &:hover {
-      color: $primary;
+      color: $primarycol;
     }
   }
 }
@@ -142,7 +142,7 @@ p.lead {
   }
   .navbar-toggler {
     &:focus {
-      outline-color: lighten($primary, 15%);
+      outline-color: lighten($primarycol, 15%);
     }
   }
 }
@@ -220,19 +220,19 @@ section.resume-section {
 }
 
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $primarycol !important;
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $primarycol !important;
 }
 
 a {
-  color: $primary;
+  color: $primarycol;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 15%);
+    color: darken($primarycol, 15%);
   }
 }
 .portfolio-screenshot-container {
