@@ -313,14 +313,10 @@ a {
 
 #sb-link-container {
   font-size: 0.7rem;
-}
-
-#sb-link {
   color: $black;
-}
-
-#sb-link-text {
-  color: $black;
+  a {
+    color: $black;
+  }
 }
 
 .navbar-collapse.collapse.in {
