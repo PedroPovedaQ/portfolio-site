@@ -4,17 +4,11 @@ export default function() {
     this.fromRoute("index"),
     this.toRoute("education"),
     this.use("toUp"),
-    this.reverse("toDown")
+    this.reverse("toUp")
   );
   this.transition(
     this.fromRoute("index"),
     this.toRoute("skills"),
-    this.use("toUp"),
-    this.reverse("toDown")
-  );
-  this.transition(
-    this.fromRoute("index"),
-    this.toRoute("portfolio"),
     this.use("toUp"),
     this.reverse("toDown")
   );
