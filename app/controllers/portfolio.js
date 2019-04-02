@@ -21,6 +21,13 @@ export default Controller.extend({
         "Knetik Cloud's visualization rich dashboard allows you to both manage and analyze the usage of your created container.",
       imgURL: "img/knetik.png",
       link: "https://apps.knetikcloud.com/"
+    },
+    {
+      title: "Vogue",
+      description:
+        "Parallax scrolling magazine esque branded web experience with an authentic vogue feel.",
+      imgURL: "img/vogue.png",
+      link: "http://142.93.59.44/"
     }
   ]
 });
